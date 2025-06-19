@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kanhu's To-Do App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      margin-top: 50px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    button.delete {
+      margin-left: 10px;
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📝 Kanhu's To-Do List</h1>
+  <input type="text" id="task" placeholder="Enter task">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="list"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
